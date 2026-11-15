@@ -1,0 +1,5 @@
+gradio==6.32.0
+openai==3.51.0
+ddgs==9.16.1
+requests==2.34.2
+beautifulsoup4==4.15.0
