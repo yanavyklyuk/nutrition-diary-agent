@@ -5,7 +5,7 @@ from tool_schemas import TOOLS, call_tool
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
 MODEL = "openai/gpt-oss-120b"
 TEMPERATURE = 0.5
-REASONING_EFFORT = "medium"
+REASONING_EFFORT = "low"
 
 SYSTEM_PROMPT = """You are a food and activity diary assistant.
 Goal: build an accurate log of today (breakfast, lunch, dinner, snacks, activities) and, when the day is complete, say whether it was a deficit, surplus or balanced.
